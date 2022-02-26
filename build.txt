@@ -1,3 +1,4 @@
+Name: Krystale OS
 Version: pre-alpha-v0.0.1
 Build: 2622022-1
 
