@@ -3,7 +3,7 @@ CC=gcc
 
 SRC_DIR=src
 TOOLS_DIR=tools
-BUILD_DIR=build
+BUILD_DIR=bin
 
 .PHONY: all floppy_image kernel bootloader clean always tools_fat
 
