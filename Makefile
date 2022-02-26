@@ -54,10 +54,14 @@ always:
 # 
 # Run 
 # 
-run: qemu-system-i386 -fda $(BUILD_DIR)/main_floppy.img
+run: 
+	qemu-system-i386 -fda $(BUILD_DIR)/main_floppy.img
 
 #
-# Clean
+# Clean and Remove-all
 #
 clean:
 	rm -rf $(BUILD_DIR)/*
+
+cleanr:
+	rm -rf bin
